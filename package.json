@@ -1,0 +1,26 @@
+{
+  "name": "swap-v2-proxy",
+  "version": "1.0.0",
+  "description": "UniswapV2Pair Swap Proxy Smart Contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "smart-contract"
+  ],
+  "author": "Alexander Smith <alexandercsmith@protonmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.1.0",
+    "@uniswap/v2-core": "^1.0.1",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.3.0",
+    "hardhat": "^2.3.0"
+  }
+}
